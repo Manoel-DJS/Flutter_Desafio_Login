@@ -35,6 +35,14 @@ class HomePage extends StatelessWidget {
       ),
     );
 
+    const myName = Padding(
+      padding: EdgeInsets.all(6.0),
+      child: Text(
+        'By Manoel Vinicius :)',
+        style: TextStyle(fontSize: 14.0, color: Colors.white),
+      ),
+    );
+
     final body = Container(
       width: MediaQuery.of(context).size.width,
       padding: const EdgeInsets.all(28.0),
@@ -45,7 +53,7 @@ class HomePage extends StatelessWidget {
         ]),
       ),
       child: const Column(
-        children: <Widget>[alucard, welcome, lorem],
+        children: <Widget>[alucard, welcome, lorem, myName],
       ),
     );
 
