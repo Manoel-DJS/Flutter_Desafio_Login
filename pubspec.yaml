@@ -62,7 +62,7 @@ flutter:
     - lib/assets/umbrella-logo.jpg
     - lib/assets/leon-avatar.jpg
   fonts:
-      -family: Nunito
+      - family: Nunito
         fonts:
           - asset: lib/assets/Nunito.ttf
 
